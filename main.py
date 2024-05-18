@@ -1,7 +1,7 @@
 import json
 
 # Load JSON data from file with explicit encoding
-with open('scrapped_data.txt', 'r', encoding='utf-8') as file:
+with open('scrapped_data\sistemas.txt', 'r', encoding='utf-8') as file:
     json_data = file.read()
 
 # Parse the JSON data
